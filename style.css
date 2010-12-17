@@ -1,0 +1,88 @@
+/* Page basics
+----------------------------------------------- */
+html {
+  text-align: center;
+  font: .825em/1.5 Verdana, Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+body {
+  background-color: #FFEEEE;
+  margin: 17px auto;
+  max-width: 99%;
+  min-width: 50em;
+  padding: 0;
+  text-align: left;
+  width: 80em;
+  border: 1px solid gray;
+}
+
+/* Header
+----------------------------------------------- */
+h1#header {
+  background: #9999CC;
+  border-bottom: 1px solid #525350;
+  margin: 0;
+  padding: 0;
+  height: 63px;
+}
+h1#header img {
+  border: none;
+  width: 345px;
+  height: 47px;
+  padding-top: 0.4em;
+}
+
+#container {
+  padding: 1em;
+}
+h2 {
+  font-size: 1.5em;
+  color: #000000;
+}
+h3 {
+  text-align: left;
+  color: #000000;
+}
+
+a {
+  color: #214881;
+}
+
+.image-wrap {
+  margin: 0em 0.5em;
+}
+  
+.description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-style: italic;
+}
+.download {
+  clear: right;
+  float: right;
+}
+.statistics {
+  clear: right;
+  float: right;
+  border: 1px dotted silver;
+  width: 300px;
+  background-color: #FFFFFF;
+}
+pre {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+}
+hr {
+  border: 0;
+  width: 80%;
+  border-bottom: 1px solid #aaa;
+}
+.footer {
+  text-align:center;
+  padding-top:30px;
+  font-style: italic;
+}
